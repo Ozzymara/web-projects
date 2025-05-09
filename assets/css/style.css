@@ -1,0 +1,29 @@
+body {
+        background-color: pink;
+    }
+
+p {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img-container img {
+    width: 50%;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid slategrey;
+    box-sizing: border-box;
+}
